@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { categories } from '../data/categories';
-import { CategoryFilter } from '../components/CategoryFilter';
-import { RobotVacuumSection } from '../components/reviews/RobotVacuumSection';
+import { categories } from '../../data/categories';
+import { CategoryFilter } from '../../components/CategoryFilter';
+import { RobotVacuumSection } from '../../components/reviews/RobotVacuumSection';
 
 export function ReviewsPage() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
