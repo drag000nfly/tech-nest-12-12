@@ -5,6 +5,8 @@ import { HomePage } from './pages/HomePage';
 import { ReviewsPage } from './pages/reviews/index';
 import { Footer } from './components/Footer';
 import RobotsPage from './pages/reviews/robot-vacuums';
+import Article2 from './pages/reviews/robot-vacuums-and-mops';
+
 
 export default function App() {
   return (
@@ -16,6 +18,7 @@ export default function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/reviews" element={<ReviewsPage />} />
             <Route path="/reviews/robot-vacuums" element={<RobotsPage />} />
+            <Route path="/reviews/robot-vacuums-and-mops" element={<Article2 />} />
           </Routes>
         </main>
         <Footer />
