@@ -11,6 +11,7 @@ export function ReviewsPage() {
         <div className="mb-12 text-white flex flex-col text-xl gap-4">
           <Link to="/reviews/robot-vacuums" >Robot Vacuums</Link>
           <Link to="/reviews/robot-vacuums-and-mops" >Robot Vacuums and Mops</Link>
+          <Link to="/reviews/gemini-bolt-robot-vacuums" >Robot Vacuums and Mops NEW</Link>
         </div>
 
       </div>
