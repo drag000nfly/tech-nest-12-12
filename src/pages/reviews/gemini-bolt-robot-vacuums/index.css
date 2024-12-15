@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-900;
+  }
+}
+
+.neon-glow {
+  text-shadow: 0 0 10px rgba(66, 220, 219, 0.7),
+               0 0 20px rgba(66, 220, 219, 0.5),
+               0 0 30px rgba(66, 220, 219, 0.3);
+}
+
+.neon-box {
+  box-shadow: 0 0 10px rgba(66, 220, 219, 0.3),
+              0 0 20px rgba(66, 220, 219, 0.2);
+}
+
+/* Enhance mobile responsiveness for specification tables */
+@media (max-width: 640px) {
+  .spec-grid {
+    @apply grid-cols-1 gap-y-2;
+  }
+  
+  .spec-item {
+    @apply flex-col;
+  }
+  
+  .spec-label {
+    @apply mb-1;
+  }
+}
