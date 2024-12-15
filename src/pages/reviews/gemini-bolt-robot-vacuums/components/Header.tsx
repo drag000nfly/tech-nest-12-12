@@ -24,7 +24,7 @@ export function Header() {
           <Bot className="h-20 w-20 text-cyan-400" />
         </div>
         <h1 className="text-5xl md:text-6xl font-bold text-center mb-8 neon-glow text-cyan-400">
-          Top 5 Robot Vacuums
+          Best Robot Vacuums
         </h1>
         <p className="text-xl text-center max-w-3xl mx-auto text-cyan-100">
           The Future of Clean Living is Here

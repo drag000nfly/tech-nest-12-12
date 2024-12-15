@@ -6,7 +6,6 @@ import { ProductCard } from './components/product/ProductCard';
 import { QuickReference } from './components/QuickReference';
 import { ComparisonTable } from './components/comparison/ComparisonTable';
 import { Conclusion } from './components/Conclusion';
-import { Footer } from './components/Footer';
 import { Container } from './components/layout/Container';
 import { products } from './data/products';
 
@@ -38,8 +37,6 @@ export function App() {
           <Conclusion />
         </Container>
       </main>
-
-      <Footer />
     </div>
   );
 }

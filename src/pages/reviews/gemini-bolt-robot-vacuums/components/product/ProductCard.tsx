@@ -3,6 +3,7 @@ import { ExternalLink } from 'lucide-react';
 import { ProductImage } from './ProductImage';
 import { ProductSpecs } from './ProductSpecs';
 import { ProductProsAndCons } from './ProductProsAndCons';
+import { addSentenceSpacing } from '../../utils/text';
 
 interface ProductCardProps {
   title: string;
@@ -15,6 +16,7 @@ interface ProductCardProps {
   }[];
   pros: string[];
   cons: string[];
+  description: string;
 }
 
 export function ProductCard({
@@ -25,6 +27,7 @@ export function ProductCard({
   specs,
   pros,
   cons,
+  description,
 }: ProductCardProps) {
   return (
     <div className="bg-gray-800 rounded-xl shadow-xl overflow-hidden mb-12 neon-box border border-cyan-400/20">
@@ -32,7 +35,7 @@ export function ProductCard({
         <ProductImage title={title} imageUrl={imageUrl} amazonUrl={amazonUrl} />
         
         <div className="prose prose-invert max-w-none mb-8 text-gray-300">
-          {children}
+          {addSentenceSpacing(description)}
         </div>
 
         <ProductSpecs specs={specs} />
