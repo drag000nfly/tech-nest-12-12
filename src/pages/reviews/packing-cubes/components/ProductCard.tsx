@@ -2,6 +2,7 @@ import { ExternalLink } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Product } from '../types';
 import { ProductSpecs } from './product/ProductSpecs';
+import { ProductImage } from './product/ProductImage';
 
 interface ProductCardProps {
   product: Product;
@@ -32,18 +33,11 @@ export function ProductCard({ product }: ProductCardProps) {
             {product.badge}
           </div>
           {product.image && (
-            <a
-              href={product.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block w-full max-w-2xl mx-auto hover:opacity-90 transition-opacity mb-8"
-            >
-              <img
-                src={product.image}
-                alt={product.name}
-                className="w-full h-auto rounded-lg shadow-lg object-contain"
-              />
-            </a>
+            <ProductImage
+              title={product.name}
+              imageUrl={product.image}
+              link={product.link}
+            />
           )}
         </div>
 
