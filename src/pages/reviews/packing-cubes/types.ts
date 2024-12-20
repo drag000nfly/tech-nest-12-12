@@ -1,8 +1,14 @@
+export interface Spec {
+  feature: string;
+  specification: string;
+}
+
 export interface Product {
   id: number;
   name: string;
   badge: string;
   summary: string;
+  specs: Spec[];
   pros: string[];
   cons: string[];
   verdict: string;
