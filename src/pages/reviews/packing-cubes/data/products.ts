@@ -7,198 +7,163 @@ const addAffiliateCode = (url: string) => {
 export const products: Product[] = [
   {
     id: 1,
-    name: "Eagle Creek Pack-It Reveal Cube Set",
-    badge: "Best Overall",
-    summary: "The Eagle Creek Pack-It Reveal Cube Set stands out as our top pick for its exceptional build quality, innovative compression system, and versatile size options. These packing cubes strike the perfect balance between durability and lightweight design.\n\nMade from high-quality, water-resistant materials, these cubes feature a unique compression zipper system that helps maximize space in your luggage while keeping clothes organized and wrinkle-free.",
+    name: "Veken Packing Cubes With Laundry and Shoe Bag",
+    badge: "Best For Overall Organization",
+    summary: "The Veken Packing Cubes offer a comprehensive set for travelers seeking optimal organization. With four packing cubes in various sizes, a dedicated shoe bag, and a laundry bag, you can neatly categorize your belongings and keep dirty clothes separate. Constructed from durable nylon and polyester, these cubes are built to last and feature a clear strip on top for easy identification of contents. Veken Packing Cubes are also helpful in reducing wrinkles.",
     specs: [
-      { feature: "Material", specification: "300-denier polyester with mesh panels" },
-      { feature: "Sizes Included", specification: "XS (4.5\" x 7.5\" x 2.5\"), S (7.25\" x 10\" x 3.25\"), M (10\" x 14.25\" x 3.25\")" },
-      { feature: "Weight", specification: "1.4 oz (XS), 2.1 oz (S), 3.2 oz (M)" },
-      { feature: "Features", specification: "Compression system, mesh windows, YKK zippers, clamshell opening" },
-      { feature: "Warranty", specification: "Lifetime guarantee" }
+      { feature: "Material", specification: "Durable nylon and polyester" },
+      { feature: "Sizes", specification: "Extra large, large, medium, and small" },
+      { feature: "Features", specification: "Clear strip for content identification, shoe bag, laundry bag" }
     ],
     pros: [
-      "**Premium water-resistant materials** for long-lasting durability",
-      "**Innovative compression system** saves up to 30% more space",
-      "**Mesh panels** for easy content visibility",
-      "**Multiple size options** for versatile packing",
-      "**Lifetime warranty** demonstrates manufacturer confidence"
+      "**Durable construction**",
+      "**Variety of sizes**",
+      "**Includes shoe and laundry bags**",
+      "**Keeps items organized**",
+      "**Reduces wrinkles**"
     ],
     cons: [
-      "**Premium price point** may not suit all budgets",
-      "**Slightly heavier** than basic packing cubes",
-      "**Compression zippers** take time to master"
+      "**Slightly heavier than other packing cubes**",
+      "**Requires hand washing and air drying**"
     ],
-    verdict: "The Eagle Creek Pack-It Reveal Cube Set is the ultimate choice for travelers who prioritize quality and functionality. While the price point is higher than basic options, the durability, compression features, and lifetime warranty make these cubes a worthwhile investment for frequent travelers.",
-    link: addAffiliateCode("https://www.amazon.com/Eagle-Creek-Pack-Reveal-Cube/dp/B08P5QZF6N"),
-    image: "/images/reviews/packing-cubes/products/eagle-creek-reveal.jpg"
+    verdict: "The Veken Packing Cubes With Laundry and Shoe Bag offer excellent organization capabilities with their comprehensive set of cubes and additional bags. While slightly heavier than some competitors, their durability and functionality make them a solid choice for most travelers.",
+    link: addAffiliateCode("https://www.amazon.com/Veken-Accessories-Essentials-Organizer-Suitcases/dp/B0B7BFMHNF"),
+    image: "/images/reviews/packing-cubes/products/veken.jpg"
   },
   {
     id: 2,
-    name: "Gonex Compression Packing Cubes",
-    badge: "Best Value",
-    summary: "Gonex Compression Packing Cubes offer an impressive balance of quality and affordability. These cubes feature a practical compression system and durable materials at a fraction of the cost of premium options.\n\nThe set includes various sizes to accommodate different packing needs, and the double-zipper design allows for easy compression to maximize luggage space.",
+    name: "Shacke Pak 5 Set Packing Cubes",
+    badge: "Best For Budget-Conscious Travelers",
+    summary: "The Shacke Pak 5 Set Packing Cubes provide excellent value for budget-minded travelers. This set includes four different sizes of cubes and a laundry bag, all made from durable nylon material. The snag-free zippers ensure smooth operation, and the \"X\" design on the front prevents bulging when overpacked.",
     specs: [
-      { feature: "Material", specification: "Ripstop nylon with mesh panels" },
-      { feature: "Sizes Included", specification: "S (11.5\" x 7.5\"), M (13.8\" x 9.8\"), L (17.3\" x 12.6\"), XL (20\" x 14\")" },
-      { feature: "Weight", specification: "1.8 oz (S), 2.4 oz (M), 3.2 oz (L), 4.2 oz (XL)" },
-      { feature: "Features", specification: "Double-zipper compression, mesh top panel, reinforced seams" },
-      { feature: "Warranty", specification: "Limited lifetime warranty" }
+      { feature: "Material", specification: "Durable water-resistant nylon" },
+      { feature: "Sizes", specification: "Extra large, large, medium, and small" },
+      { feature: "Features", specification: "Laundry bag, snag-free zippers, \"X\" design to prevent bulging" }
     ],
     pros: [
-      "**Excellent price-to-quality ratio**",
-      "**Effective compression system** with double zippers",
-      "**Variety of colors** for easy organization",
-      "**Lightweight design** adds minimal weight to luggage",
-      "**Rip-stop nylon** prevents tears and damage"
+      "**Affordable**",
+      "**Durable construction**",
+      "**Various sizes for different needs**",
+      "**Includes a laundry bag**"
     ],
     cons: [
-      "**Zippers** not as smooth as premium brands",
-      "**Less structured** when not fully packed",
-      "**Limited warranty** compared to premium options"
+      "**Mesh tops are not waterproof or water-resistant**"
     ],
-    verdict: "Gonex Compression Packing Cubes are perfect for budget-conscious travelers who don't want to compromise on essential features. While they may lack some premium touches, they offer remarkable value and functionality that will satisfy most travelers' needs.",
-    link: addAffiliateCode("https://www.amazon.com/Gonex-Compression-Packing-Cubes-Set/dp/B07DWMJKP5"),
-    image: "/images/reviews/packing-cubes/products/gonex-compression.jpg"
+    verdict: "The Shacke Pak 5 Set offers great value for budget-conscious travelers, providing essential features and durability at an affordable price point.",
+    link: addAffiliateCode("https://www.amazon.com/Shacke-Pak-Packing-Organizers-Laundry/dp/B0CHN6F342"),
+    image: "/images/reviews/packing-cubes/products/shacke-pak.jpg"
   },
   {
     id: 3,
     name: "Peak Design Packing Cubes",
-    badge: "Premium Pick",
-    summary: "Peak Design's Packing Cubes represent the pinnacle of travel organization, featuring innovative design elements and premium materials. These cubes showcase thoughtful details like tear-away zippers, weatherproof construction, and an expandable design.\n\nThe unique tear-away zipper system provides quick access to contents, while the weatherproof nylon protects your belongings in any conditions.",
+    badge: "Best For Durability and Sustainability",
+    summary: "The Peak Design Packing Cubes are a top choice for eco-conscious travelers. Made from 100% recycled materials, these cubes are both durable and sustainable. They come in various sizes and feature an expandable design to accommodate more items when needed. The water-resistant material provides added protection for your belongings.",
     specs: [
-      { feature: "Material", specification: "400D nylon canvas with weatherproof coating" },
-      { feature: "Sizes Included", specification: "S (2.4L), M (4.8L)" },
-      { feature: "Weight", specification: "4.2 oz (S), 5.0 oz (M)" },
-      { feature: "Features", specification: "Tear-away zippers, dual compartments, weatherproof construction" },
-      { feature: "Warranty", specification: "Lifetime warranty" }
+      { feature: "Material", specification: "100% recycled, water-resistant nylon" },
+      { feature: "Sizes", specification: "Small and medium" },
+      { feature: "Features", specification: "Expandable design, durable construction, dual compartments" }
     ],
     pros: [
-      "**Innovative tear-away zipper** for quick access",
-      "**Weatherproof nylon** construction",
-      "**Expandable design** adapts to packing needs",
-      "**Clean aesthetic** with premium materials",
-      "**Excellent organization** features"
+      "**Spacious and well-built**",
+      "**Made with 100% recycled materials**",
+      "**Water-resistant for added protection**",
+      "**Fair Trade Certified and carbon neutral**"
     ],
     cons: [
-      "**Highest price point** in category",
-      "**Limited size options** compared to sets",
-      "**Heavier** than basic cubes"
+      "**Easy-access zippers can be finicky**"
     ],
-    verdict: "Peak Design Packing Cubes are the ultimate choice for those who demand the best in both form and function. While they come at a premium price, the innovative features, premium materials, and thoughtful design make them worth the investment for discerning travelers.",
-    link: addAffiliateCode("https://www.amazon.com/Peak-Design-Packing-Cube-Small/dp/B07GWKDLGT"),
+    verdict: "Peak Design Packing Cubes excel in sustainability and durability, making them perfect for environmentally conscious travelers who don't want to compromise on quality.",
+    link: addAffiliateCode("https://www.amazon.com/Peak-Design-Packing-Small-Efficient/dp/B09RZR7T8K"),
     image: "/images/reviews/packing-cubes/products/peak-design.jpg"
   },
   {
     id: 4,
-    name: "Thule Compression Cube Set",
-    badge: "Most Durable",
-    summary: "The Thule Compression Cube Set exemplifies Swedish engineering excellence with its robust construction and intelligent design. These cubes feature ultra-durable ripstop nylon and premium YKK zippers that withstand extensive use.\n\nOur testing revealed exceptional compression capabilities and outstanding durability, making these cubes perfect for adventurous travelers who demand reliability.",
+    name: "Paravel Packing Cube Quad",
+    badge: "Best For Personalized Style",
+    summary: "The Paravel Packing Cube Quad offers a stylish and personalized packing solution. These cubes come in a set of four, with three different sizes to accommodate various items. The standout feature is the option to monogram the cubes with up to three letters, adding a unique touch to your travel gear.",
     specs: [
-      { feature: "Material", specification: "70D/200D nylon mix with reinforced corners" },
-      { feature: "Sizes Included", specification: "S (7.5\" x 5.5\"), M (10\" x 7.5\"), L (14\" x 10\")" },
-      { feature: "Weight", specification: "2.5 oz (S), 3.8 oz (M), 5.0 oz (L)" },
-      { feature: "Features", specification: "Heavy-duty compression, reinforced corners, YKK zippers" },
-      { feature: "Warranty", specification: "2-year warranty" }
+      { feature: "Material", specification: "Water-resistant Negative Nylon®" },
+      { feature: "Sizes", specification: "Large, medium, and small" },
+      { feature: "Features", specification: "4-sided cube design, monogramming option" }
     ],
     pros: [
-      "**Military-grade ripstop nylon** for ultimate durability",
-      "**Premium YKK zippers** ensure smooth operation",
-      "**Excellent compression ratio** maximizes space",
-      "**Water-resistant coating** protects contents",
-      "**Reinforced seams** prevent wear and tear"
+      "**Can be personalized with monogramming**",
+      "**Water-resistant for added protection**",
+      "**Durable and spacious**"
     ],
     cons: [
-      "**Higher weight** due to robust materials",
-      "**Premium pricing** reflects quality materials",
-      "**Limited color options** available"
+      "**Large cube takes up significant space in a carry-on**"
     ],
-    verdict: "Thule Compression Cubes are the go-to choice for travelers who prioritize durability and reliable performance. While they command a premium price, their exceptional build quality and thoughtful design features make them a worthwhile investment for frequent travelers.",
-    link: addAffiliateCode("https://www.amazon.com/dp/B09NL9BWK2"),
-    image: "/images/reviews/packing-cubes/products/thule-compression.jpg"
+    verdict: "The Paravel Packing Cube Quad is ideal for style-conscious travelers who want to add a personal touch to their travel organization.",
+    link: addAffiliateCode("https://www.amazon.com/dp/B09MSP8HW8"),
+    image: "/images/reviews/packing-cubes/products/paravel.jpg"
   },
   {
     id: 5,
-    name: "REI Co-op Expandable Packing Cube Set",
-    badge: "Best for Overpackers",
-    summary: "The REI Co-op Expandable Packing Cube Set revolutionizes packing with its innovative expansion system. These cubes can accommodate up to 30% more content when expanded, perfect for those who tend to pack more than planned.\n\nThe lightweight ripstop nylon construction maintains durability while keeping weight minimal, and the dual-zipper system allows for easy compression when needed.",
+    name: "Calpak Packing Cubes 5-Piece Set",
+    badge: "Best For Fashionable Organization",
+    summary: "The Calpak Packing Cubes 5-Piece Set combines functionality with fashion. With a variety of colors and patterns to choose from, these cubes add a touch of style to your luggage. The set includes different sizes and removable identification tags for easy organization. The durable polyester material is designed to withstand the wear and tear of travel.",
     specs: [
-      { feature: "Material", specification: "Ripstop nylon with mesh panels" },
-      { feature: "Sizes Included", specification: "S (8\" x 6\" x 3\"), M (12\" x 8\" x 3\"), L (14.5\" x 10.5\" x 3\")" },
-      { feature: "Weight", specification: "2.0 oz (S), 2.8 oz (M), 3.5 oz (L)" },
-      { feature: "Features", specification: "Expandable design, dual-zipper system, mesh top" },
-      { feature: "Warranty", specification: "1-year satisfaction guarantee" }
+      { feature: "Material", specification: "Durable polyester" },
+      { feature: "Sizes", specification: "Large, medium, and small" },
+      { feature: "Features", specification: "Removable identification tags, water-resistant envelope for cosmetics" }
     ],
     pros: [
-      "**Expandable design** adds 30% more capacity",
-      "**Dual-zipper system** for easy compression",
-      "**Lightweight ripstop nylon** construction",
-      "**Multiple size options** included",
-      "**Excellent value** for feature set"
+      "**Stylish and durable**",
+      "**Includes a variety of sizes and a water-resistant pouch**"
     ],
     cons: [
-      "**Expanded shape** can be bulky",
-      "**Limited color selection**",
-      "**Compression zippers** require practice"
+      "**Better suited for checked luggage due to the number of cubes**"
     ],
-    verdict: "REI Co-op's Expandable Packing Cubes are perfect for travelers who need flexible packing solutions. The expandable design and quality construction offer excellent versatility at a reasonable price point.",
-    link: addAffiliateCode("https://www.amazon.com/dp/B07BKXM5XS"),
-    image: "/images/reviews/packing-cubes/products/rei-expandable.jpg"
+    verdict: "Calpak Packing Cubes are perfect for fashion-conscious travelers who want their organization solutions to be as stylish as they are functional.",
+    link: addAffiliateCode("https://www.calpaktravel.com/collections/packing-cubes"),
+    image: "/images/reviews/packing-cubes/products/calpak.jpg"
   },
   {
     id: 6,
-    name: "Tortuga Compression Cube Set",
-    badge: "Best for Digital Nomads",
-    summary: "The Tortuga Compression Cube Set is specifically designed for long-term travelers and digital nomads. These cubes feature a sophisticated compression system and color-coded zippers for easy organization.\n\nMade from 70-denier ripstop nylon, these cubes offer an excellent balance of durability and weight, perfect for those who live out of their luggage.",
+    name: "Bagsmart Compression Packing Cubes",
+    badge: "Best For Maximizing Space",
+    summary: "The Bagsmart Compression Packing Cubes are ideal for travelers with limited luggage space. These cubes feature compression technology to efficiently reduce the volume of your belongings. The set includes various sizes with mesh panels on top for ventilation and easy identification of contents.",
     specs: [
-      { feature: "Material", specification: "70D ripstop nylon" },
-      { feature: "Sizes Included", specification: "S (4.5L), M (8L)" },
-      { feature: "Weight", specification: "2.8 oz (S), 3.9 oz (M)" },
-      { feature: "Features", specification: "Color-coded zippers, compression system, water-resistant" },
-      { feature: "Warranty", specification: "Common Decency Guarantee" }
+      { feature: "Material", specification: "Durable, water-resistant polyester" },
+      { feature: "Sizes", specification: "Large, medium, and small" },
+      { feature: "Features", specification: "Compression zippers, mesh panels for ventilation" }
     ],
     pros: [
-      "**Color-coded zippers** for easy identification",
-      "**70D ripstop nylon** balances weight and durability",
-      "**Excellent compression** system",
-      "**Perfect size** for carry-on luggage",
-      "**Water-resistant** construction"
+      "**Efficient compression**",
+      "**Durable construction**",
+      "**Keeps items organized**",
+      "**Ideal for beach vacations**"
     ],
     cons: [
-      "**Limited size options** available",
-      "**Only available** in black",
-      "**Higher price point** than basic options"
+      "**Can be bulky when expanded**"
     ],
-    verdict: "Tortuga Compression Cubes are ideal for digital nomads and long-term travelers who need reliable organization solutions. The thoughtful design features and durable construction justify the investment for frequent travelers.",
-    link: addAffiliateCode("https://www.amazon.com/dp/B09RZQP7G1"),
-    image: "/images/reviews/packing-cubes/products/tortuga-compression.jpg"
+    verdict: "Bagsmart Compression Packing Cubes are an excellent choice for travelers who need to maximize their luggage space without compromising on organization.",
+    link: addAffiliateCode("https://www.amazon.com/Compression-BAGSMART-Organizers-Essentials-Lightweight/dp/B0CLN6FVL8"),
+    image: "/images/reviews/packing-cubes/products/bagsmart.jpg"
   },
   {
     id: 7,
-    name: "Eagle Creek Pack-It Isolate Cube Set",
-    badge: "Best Eco-Friendly",
-    summary: "The Eagle Creek Pack-It Isolate Cube Set represents the future of sustainable travel gear. Crafted from 100% recycled ocean-bound plastics, these cubes prove that eco-consciousness doesn't compromise performance.\n\nOur testing revealed excellent compression capabilities and surprising durability, all while maintaining an incredibly light weight profile.",
+    name: "Eagle Creek Specter Compression Cube",
+    badge: "Best For Lightweight Compression",
+    summary: "The Eagle Creek Specter Compression Cube is a top choice for travelers who prioritize lightweight packing. Made from durable ripstop fabric, this cube is both lightweight and water-resistant. The compression zipper allows you to efficiently compress bulky items, maximizing space in your luggage.",
     specs: [
-      { feature: "Material", specification: "100% recycled ocean-bound plastics" },
-      { feature: "Sizes Included", specification: "XS (4.5\" x 7.5\"), S (7.5\" x 10.5\"), M (10\" x 14\")" },
-      { feature: "Weight", specification: "0.6 oz (XS), 1.0 oz (S), 1.3 oz (M)" },
-      { feature: "Features", specification: "PFC-free water-resistant coating, antimicrobial properties" },
-      { feature: "Warranty", specification: "Lifetime warranty" }
+      { feature: "Material", specification: "Durable, ultra-lightweight, water-resistant ripstop fabric" },
+      { feature: "Sizes", specification: "Small and medium" },
+      { feature: "Features", specification: "Compression zipper, translucent fabric" }
     ],
     pros: [
-      "**100% recycled materials** from ocean plastics",
-      "**Ultra-lightweight** design",
-      "**PFC-free** water-resistant coating",
-      "**Excellent compression** system",
-      "**Antimicrobial** properties"
+      "**Lightweight and durable**",
+      "**Compresses well**",
+      "**Water-resistant**",
+      "**Maximizes luggage space**"
     ],
     cons: [
-      "**Thinner feel** than traditional materials",
-      "**Limited color options**",
-      "**Premium price** for eco-friendly materials"
+      "**Expensive**",
+      "**Zipper can snag on the internal lining**"
     ],
-    verdict: "Eagle Creek Pack-It Isolate Cubes are the perfect choice for environmentally conscious travelers who don't want to sacrifice performance. While they command a premium price, the combination of sustainability and functionality makes them a compelling choice.",
-    link: addAffiliateCode("https://www.amazon.com/dp/B087HP7N4W"),
-    image: "/images/reviews/packing-cubes/products/eagle-creek-isolate.jpg"
+    verdict: "The Eagle Creek Specter Compression Cube is perfect for travelers who prioritize lightweight packing without compromising on functionality. Its premium construction and effective compression system justify the higher price point.",
+    link: addAffiliateCode("https://www.amazon.com/Eagle-Creek-Specter-Compression-Strobe/dp/B00BYFC4Z4"),
+    image: "/images/reviews/packing-cubes/products/eagle-creek-specter.jpg"
   }
 ];
