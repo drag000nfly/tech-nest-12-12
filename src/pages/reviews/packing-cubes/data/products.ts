@@ -28,7 +28,7 @@ export const products: Product[] = [
     ],
     verdict: "The Veken Packing Cubes With Laundry and Shoe Bag offer excellent organization capabilities with their comprehensive set of cubes and additional bags. While slightly heavier than some competitors, their durability and functionality make them a solid choice for most travelers.",
     link: addAffiliateCode("https://www.amazon.com/Veken-Accessories-Essentials-Organizer-Suitcases/dp/B0B7BFMHNF"),
-    image: "/images/reviews/packing-cubes/products/veken.jpg"
+    image: "https://m.media-amazon.com/images/I/81GaAJkuWXL._AC_SL1500_.jpg"
   },
   {
     id: 2,
@@ -51,7 +51,7 @@ export const products: Product[] = [
     ],
     verdict: "The Shacke Pak 5 Set offers great value for budget-conscious travelers, providing essential features and durability at an affordable price point.",
     link: addAffiliateCode("https://www.amazon.com/Shacke-Pak-Packing-Organizers-Laundry/dp/B0CHN6F342"),
-    image: "/images/reviews/packing-cubes/products/shacke-pak.jpg"
+    image: "https://m.media-amazon.com/images/I/71nz382C3wL._AC_SL1500_.jpg"
   },
   {
     id: 3,
@@ -74,7 +74,7 @@ export const products: Product[] = [
     ],
     verdict: "Peak Design Packing Cubes excel in sustainability and durability, making them perfect for environmentally conscious travelers who don't want to compromise on quality.",
     link: addAffiliateCode("https://www.amazon.com/Peak-Design-Packing-Small-Efficient/dp/B09RZR7T8K"),
-    image: "/images/reviews/packing-cubes/products/peak-design.jpg"
+    image: "https://m.media-amazon.com/images/I/81-qSdJdTmL._AC_SL1500_.jpg"
   },
   {
     id: 4,
@@ -96,7 +96,7 @@ export const products: Product[] = [
     ],
     verdict: "The Paravel Packing Cube Quad is ideal for style-conscious travelers who want to add a personal touch to their travel organization.",
     link: addAffiliateCode("https://www.amazon.com/dp/B09MSP8HW8"),
-    image: "/images/reviews/packing-cubes/products/paravel.jpg"
+    image: "https://www.calpaktravel.com/cdn/shop/products/PackingCubes-5PieceSet-Black_1800x1800.jpg?v=1669111473"
   },
   {
     id: 5,
@@ -117,7 +117,7 @@ export const products: Product[] = [
     ],
     verdict: "Calpak Packing Cubes are perfect for fashion-conscious travelers who want their organization solutions to be as stylish as they are functional.",
     link: addAffiliateCode("https://www.calpaktravel.com/collections/packing-cubes"),
-    image: "/images/reviews/packing-cubes/products/calpak.jpg"
+    image: "https://m.media-amazon.com/images/I/71C-I-hWgAL._AC_SL1500_.jpg"
   },
   {
     id: 6,
@@ -140,7 +140,7 @@ export const products: Product[] = [
     ],
     verdict: "Bagsmart Compression Packing Cubes are an excellent choice for travelers who need to maximize their luggage space without compromising on organization.",
     link: addAffiliateCode("https://www.amazon.com/Compression-BAGSMART-Organizers-Essentials-Lightweight/dp/B0CLN6FVL8"),
-    image: "/images/reviews/packing-cubes/products/bagsmart.jpg"
+    image: "https://m.media-amazon.com/images/I/812eAHW9-XL._AC_SL1500_.jpg"
   },
   {
     id: 7,
@@ -164,6 +164,6 @@ export const products: Product[] = [
     ],
     verdict: "The Eagle Creek Specter Compression Cube is perfect for travelers who prioritize lightweight packing without compromising on functionality. Its premium construction and effective compression system justify the higher price point.",
     link: addAffiliateCode("https://www.amazon.com/Eagle-Creek-Specter-Compression-Strobe/dp/B00BYFC4Z4"),
-    image: "/images/reviews/packing-cubes/products/eagle-creek-specter.jpg"
+    image: "https://m.media-amazon.com/images/I/71oF-N-zMHL._AC_SL1500_.jpg"
   }
 ];
