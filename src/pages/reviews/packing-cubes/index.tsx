@@ -1,18 +1,17 @@
-import React from 'react';
 import { Hero } from './components/Hero';
 import { Introduction } from './components/Introduction';
 import { TableOfContents } from './components/TableOfContents';
 import { ProductCard } from './components/ProductCard';
 import { Conclusion } from './components/Conclusion';
 import { StickyTOC } from './components/StickyTOC';
+import { ComparisonTable } from './components/comparison/ComparisonTable';
 import { articleData } from './data/articleData';
 
-function App() {
+export default function PackingCubesReview() {
   return (
     <div className="min-h-screen bg-gray-900 text-gray-100">
       <Hero
         title={articleData.title}
-        subtitle={articleData.subtitle}
         image={articleData.heroImage}
       />
       <div className="container mx-auto px-4">
@@ -25,6 +24,7 @@ function App() {
                 <ProductCard key={product.id} product={product} />
               ))}
             </div>
+            <ComparisonTable />
             <Conclusion paragraphs={articleData.conclusion.paragraphs} />
           </div>
           <div className="hidden xl:block w-80 relative">
@@ -35,5 +35,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
