@@ -5,6 +5,7 @@ import { ProductCard } from './components/ProductCard';
 import { Conclusion } from './components/Conclusion';
 import { StickyTOC } from './components/StickyTOC';
 import { ComparisonTable } from './components/comparison/ComparisonTable';
+import { QuickReference } from './components/QuickReference';
 import { articleData } from './data/articleData';
 
 export default function PackingCubesReview() {
@@ -25,6 +26,7 @@ export default function PackingCubesReview() {
               ))}
             </div>
             <ComparisonTable />
+            <QuickReference />
             <Conclusion paragraphs={articleData.conclusion.paragraphs} />
           </div>
           <div className="hidden xl:block w-80 relative">
