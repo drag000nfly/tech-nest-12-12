@@ -96,7 +96,7 @@ export const products: Product[] = [
     ],
     verdict: "The Paravel Packing Cube Quad is ideal for style-conscious travelers who want to add a personal touch to their travel organization.",
     link: addAffiliateCode("https://www.amazon.com/dp/B09MSP8HW8"),
-    image: "https://www.calpaktravel.com/cdn/shop/products/PackingCubes-5PieceSet-Black_1800x1800.jpg?v=1669111473"
+    image: "https://m.media-amazon.com/images/I/71C-I-hWgAL._AC_SL1500_.jpg"
   },
   {
     id: 5,
