@@ -31,7 +31,7 @@ export const products: Product[] = [
     ],
     verdict: "The Eagle Creek Pack-It Reveal Cube Set is the ultimate choice for travelers who prioritize quality and functionality. While the price point is higher than basic options, the durability, compression features, and lifetime warranty make these cubes a worthwhile investment for frequent travelers.",
     link: addAffiliateCode("https://www.amazon.com/Eagle-Creek-Pack-Reveal-Cube/dp/B08P5QZF6N"),
-    image: "/images/reviews/packing-cubes/eagle-creek-reveal.jpg"
+    image: "/images/reviews/packing-cubes/products/eagle-creek-reveal.jpg"
   },
   {
     id: 2,
@@ -59,7 +59,7 @@ export const products: Product[] = [
     ],
     verdict: "Gonex Compression Packing Cubes are perfect for budget-conscious travelers who don't want to compromise on essential features. While they may lack some premium touches, they offer remarkable value and functionality that will satisfy most travelers' needs.",
     link: addAffiliateCode("https://www.amazon.com/Gonex-Compression-Packing-Cubes-Set/dp/B07DWMJKP5"),
-    image: "/images/reviews/packing-cubes/gonex-compression.jpg"
+    image: "/images/reviews/packing-cubes/products/gonex-compression.jpg"
   },
   {
     id: 3,
@@ -87,7 +87,7 @@ export const products: Product[] = [
     ],
     verdict: "Peak Design Packing Cubes are the ultimate choice for those who demand the best in both form and function. While they come at a premium price, the innovative features, premium materials, and thoughtful design make them worth the investment for discerning travelers.",
     link: addAffiliateCode("https://www.amazon.com/Peak-Design-Packing-Cube-Small/dp/B07GWKDLGT"),
-    image: "/images/reviews/packing-cubes/peak-design.jpg"
+    image: "/images/reviews/packing-cubes/products/peak-design.jpg"
   },
   {
     id: 4,
@@ -115,7 +115,7 @@ export const products: Product[] = [
     ],
     verdict: "Thule Compression Cubes are the go-to choice for travelers who prioritize durability and reliable performance. While they command a premium price, their exceptional build quality and thoughtful design features make them a worthwhile investment for frequent travelers.",
     link: addAffiliateCode("https://www.amazon.com/dp/B09NL9BWK2"),
-    image: "/images/reviews/packing-cubes/thule-compression.jpg"
+    image: "/images/reviews/packing-cubes/products/thule-compression.jpg"
   },
   {
     id: 5,
@@ -143,7 +143,7 @@ export const products: Product[] = [
     ],
     verdict: "REI Co-op's Expandable Packing Cubes are perfect for travelers who need flexible packing solutions. The expandable design and quality construction offer excellent versatility at a reasonable price point.",
     link: addAffiliateCode("https://www.amazon.com/dp/B07BKXM5XS"),
-    image: "/images/reviews/packing-cubes/rei-expandable.jpg"
+    image: "/images/reviews/packing-cubes/products/rei-expandable.jpg"
   },
   {
     id: 6,
@@ -171,7 +171,7 @@ export const products: Product[] = [
     ],
     verdict: "Tortuga Compression Cubes are ideal for digital nomads and long-term travelers who need reliable organization solutions. The thoughtful design features and durable construction justify the investment for frequent travelers.",
     link: addAffiliateCode("https://www.amazon.com/dp/B09RZQP7G1"),
-    image: "/images/reviews/packing-cubes/tortuga-compression.jpg"
+    image: "/images/reviews/packing-cubes/products/tortuga-compression.jpg"
   },
   {
     id: 7,
@@ -199,6 +199,6 @@ export const products: Product[] = [
     ],
     verdict: "Eagle Creek Pack-It Isolate Cubes are the perfect choice for environmentally conscious travelers who don't want to sacrifice performance. While they command a premium price, the combination of sustainability and functionality makes them a compelling choice.",
     link: addAffiliateCode("https://www.amazon.com/dp/B087HP7N4W"),
-    image: "/images/reviews/packing-cubes/eagle-creek-isolate.jpg"
+    image: "/images/reviews/packing-cubes/products/eagle-creek-isolate.jpg"
   }
 ];
