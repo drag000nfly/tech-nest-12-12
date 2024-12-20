@@ -28,5 +28,12 @@ export const reviews: Review[] = [
     category: "Smart Home",
     rating: 4.6,
     image: "https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    id: 5,
+    title: "Best Packing Cubes for Travel",
+    category: "Travel",
+    rating: 4.7,
+    image: "https://images.unsplash.com/photo-1581553680321-4fffae59fccd?auto=format&fit=crop&q=80&w=600"
   }
 ];
