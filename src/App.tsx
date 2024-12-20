@@ -7,7 +7,7 @@ import { Footer } from './components/Footer';
 import RobotsPage from './pages/reviews/robot-vacuums';
 import Article2 from './pages/reviews/robot-vacuums-and-mops';
 import Article3 from './pages/reviews/gemini-bolt-robot-vacuums';
-
+import PackingCubesPage from './pages/reviews/packing-cubes';
 
 export default function App() {
   return (
@@ -19,6 +19,7 @@ export default function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/reviews" element={<ReviewsPage />} />
             <Route path="/reviews/robot-vacuums" element={<RobotsPage />} />
+            <Route path="/reviews/packing-cubes" element={<PackingCubesPage />} />
             <Route path="/reviews/robot-vacuums-and-mops" element={<Article2 />} />
             <Route path="/reviews/gemini-bolt-robot-vacuums" element={<Article3 />} />
           </Routes>
