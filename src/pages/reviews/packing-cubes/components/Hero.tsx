@@ -8,13 +8,13 @@ interface HeroProps {
 
 export function Hero({ title, subtitle, image }: HeroProps) {
   return (
-    <div className="relative h-[500px] w-full mb-12">
+    <div className="relative h-[400px] w-full mb-16">
       <img
         src={image}
         alt={title}
-        className="absolute inset-0 w-full h-full object-cover brightness-50"
+        className="absolute inset-0 w-full h-full object-cover rounded-xl"
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-gray-900/50 to-gray-900 backdrop-blur-sm">
+      <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent rounded-xl">
         <div className="container mx-auto px-4 h-full flex items-center justify-center">
           <div className="max-w-3xl text-center">
             <motion.h1
