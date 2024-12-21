@@ -1,30 +1,33 @@
-import React from 'react';
-import { products } from '../../data/products';
+import { Product } from '../../types';
 import { ComparisonTableHeader } from './ComparisonTableHeader';
 import { ComparisonTableRow } from './ComparisonTableRow';
 
-const getPriceRange = (product: typeof products[0]): string => {
+interface ComparisonTableProps {
+  products: Product[];
+}
+
+const getPriceRange = (product: Product): string => {
   switch (product.name) {
-    case "Eagle Creek Pack-It Reveal Cube Set":
-      return "$45-55";
-    case "Gonex Compression Packing Cubes":
+    case "Veken Packing Cubes With Laundry and Shoe Bag":
       return "$25-35";
+    case "Shacke Pak 5 Set Packing Cubes":
+      return "$20-30";
     case "Peak Design Packing Cubes":
       return "$40-50";
-    case "Thule Compression Cube Set":
+    case "Paravel Packing Cube Quad":
       return "$45-55";
-    case "REI Co-op Expandable Packing Cube Set":
-      return "$30-40";
-    case "Tortuga Compression Cube Set":
+    case "Calpak Packing Cubes 5-Piece Set":
       return "$35-45";
-    case "Eagle Creek Pack-It Isolate Cube Set":
+    case "Bagsmart Compression Packing Cubes":
+      return "$30-40";
+    case "Eagle Creek Specter Compression Cube":
       return "$40-50";
     default:
       return "Price varies";
   }
 };
 
-export function ComparisonTable() {
+export function ComparisonTable({ products }: ComparisonTableProps) {
   return (
     <div id="comparison-table" className="overflow-x-auto">
       <div className="bg-gray-800/50 rounded-xl p-8 mt-16 mb-16 neon-box border border-cyan-400/20 min-w-[800px]">

@@ -8,12 +8,19 @@ export interface Product {
   name: string;
   badge: string;
   summary: string;
+  link: string;
+  image: string;
   specs: Spec[];
   pros: string[];
   cons: string[];
   verdict: string;
-  link: string;
-  image?: string;
+  specifications: {
+    material: string;
+    sizes: string[];
+    features: string[];
+    waterResistant: boolean;
+    compression: boolean;
+  };
 }
 
 export interface ArticleData {

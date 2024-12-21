@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { useState } from 'react';
 
 interface HeroProps {
   title: string;
@@ -7,12 +8,30 @@ interface HeroProps {
 }
 
 export function Hero({ title, subtitle, image }: HeroProps) {
+  const [hasError, setHasError] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
+
+  const handleError = () => {
+    console.error(`Failed to load hero image: ${image}`);
+    setHasError(true);
+    setIsLoading(false);
+  };
+
+  const handleLoad = () => {
+    setIsLoading(false);
+  };
+
   return (
     <div className="relative h-[400px] w-full mb-16">
+      {isLoading && (
+        <div className="absolute inset-0 bg-gray-800 animate-pulse rounded-xl" />
+      )}
       <img
-        src={image}
+        src={hasError ? '/images/placeholder.jpg' : image}
         alt={title}
         className="absolute inset-0 w-full h-full object-cover rounded-xl"
+        onError={handleError}
+        onLoad={handleLoad}
         crossOrigin="anonymous"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent rounded-xl">

@@ -7,6 +7,7 @@ import { StickyTOC } from './components/StickyTOC';
 import { ComparisonTable } from './components/comparison/ComparisonTable';
 import { QuickReference } from './components/QuickReference';
 import { articleData } from './data/articleData';
+import { products } from './data/products';
 
 export default function PackingCubesReview() {
   return (
@@ -19,18 +20,18 @@ export default function PackingCubesReview() {
         <div className="flex gap-8 relative">
           <div className="flex-1 max-w-4xl">
             <Introduction paragraphs={articleData.introduction.paragraphs} />
-            <TableOfContents products={articleData.products} />
+            <TableOfContents products={products} />
             <div className="space-y-8">
-              {articleData.products.map(product => (
+              {products.map(product => (
                 <ProductCard key={product.id} product={product} />
               ))}
             </div>
-            <ComparisonTable />
-            <QuickReference />
+            <ComparisonTable products={products} />
+            <QuickReference products={products} />
             <Conclusion paragraphs={articleData.conclusion.paragraphs} />
           </div>
           <div className="hidden xl:block w-80 relative">
-            <StickyTOC products={articleData.products} />
+            <StickyTOC products={products} />
           </div>
         </div>
       </div>

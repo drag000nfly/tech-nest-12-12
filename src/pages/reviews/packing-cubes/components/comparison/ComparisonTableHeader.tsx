@@ -5,6 +5,7 @@ export function ComparisonTableHeader() {
     <thead>
       <tr className="border-b border-cyan-400/20">
         <th className="py-4 px-6 text-left text-cyan-300">Model</th>
+        <th className="py-4 px-6 text-left text-cyan-300">Image</th>
         <th className="py-4 px-6 text-left text-cyan-300">Material</th>
         <th className="py-4 px-6 text-left text-cyan-300">Sizes Included</th>
         <th className="py-4 px-6 text-left text-cyan-300">Features</th>
