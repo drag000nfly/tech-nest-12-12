@@ -12,6 +12,7 @@ export function ReviewsPage() {
           <Link to="/reviews/robot-vacuums" >Robot Vacuums</Link>
           <Link to="/reviews/robot-vacuums-and-mops" >Robot Vacuums and Mops</Link>
           <Link to="/reviews/gemini-bolt-robot-vacuums" >Robot Vacuums and Mops NEW</Link>
+          <Link to="/reviews/packing-cubes">Best Packing Cubes for Travel</Link>
         </div>
 
       </div>

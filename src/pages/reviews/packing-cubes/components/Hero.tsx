@@ -1,0 +1,42 @@
+import React, { useState } from 'react';
+import { motion } from 'framer-motion';
+
+interface HeroProps {
+  title: string;
+  subtitle?: string;
+  image: string;
+}
+
+export function Hero({ title, image }: HeroProps) {
+  const [imageSrc, setImageSrc] = useState(image);
+
+  const handleImageError = () => {
+    console.error('Failed to load hero image:', image);
+    setImageSrc('/images/placeholder.jpg');
+  };
+
+  return (
+    <div className="relative h-[300px] sm:h-[400px] md:h-[500px] w-full mb-8 sm:mb-12">
+      <img
+        src={imageSrc}
+        alt={title}
+        className="absolute inset-0 w-full h-full object-cover object-center brightness-50"
+        onError={handleImageError}
+      />
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-gray-900/50 to-gray-900">
+        <div className="container mx-auto px-4 sm:px-6 md:px-8 h-full flex items-center justify-center">
+          <div className="max-w-3xl text-center">
+            <motion.h1
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              className="text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-tight"
+            >
+              {title}
+            </motion.h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
