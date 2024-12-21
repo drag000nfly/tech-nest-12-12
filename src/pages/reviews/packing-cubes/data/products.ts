@@ -9,26 +9,33 @@ export const products: Product[] = [
     id: 1,
     name: "Veken Packing Cubes With Laundry and Shoe Bag",
     badge: "Best For Overall Organization",
-    summary: "The Veken Packing Cubes offer a comprehensive set for travelers seeking optimal organization. With four packing cubes in various sizes, a dedicated shoe bag, and a laundry bag, you can neatly categorize your belongings and keep dirty clothes separate. Constructed from durable nylon and polyester, these cubes are built to last and feature a clear strip on top for easy identification of contents. Veken Packing Cubes are also helpful in reducing wrinkles.",
+    summary: "Perfect for those who want comprehensive organization with dedicated compartments for all travel essentials.",
     specs: [
       { feature: "Material", specification: "Durable nylon and polyester" },
       { feature: "Sizes", specification: "Extra large, large, medium, and small" },
       { feature: "Features", specification: "Clear strip for content identification, shoe bag, laundry bag" }
     ],
     pros: [
-      "**Durable construction**",
-      "**Variety of sizes**",
-      "**Includes shoe and laundry bags**",
-      "**Keeps items organized**",
-      "**Reduces wrinkles**"
+      "Durable construction",
+      "Variety of sizes",
+      "Includes shoe and laundry bags",
+      "Keeps items organized",
+      "Reduces wrinkles"
     ],
     cons: [
-      "**Slightly heavier than other packing cubes**",
-      "**Requires hand washing and air drying**"
+      "Slightly heavier than other packing cubes",
+      "Requires hand washing and air drying"
     ],
-    verdict: "The Veken Packing Cubes With Laundry and Shoe Bag offer excellent organization capabilities with their comprehensive set of cubes and additional bags. While slightly heavier than some competitors, their durability and functionality make them a solid choice for most travelers.",
-    link: addAffiliateCode("https://www.amazon.com/Veken-Accessories-Essentials-Organizer-Suitcases/dp/B0B7BFMHNF"),
-    image: "https://m.media-amazon.com/images/I/81GaAJkuWXL._AC_SL1500_.jpg"
+    verdict: "The Veken Packing Cubes With Laundry and Shoe Bag offer excellent organization capabilities with their comprehensive set of cubes and additional bags.",
+    link: addAffiliateCode("https://www.amazon.com/dp/B0B7BFMHNF"),
+    image: "/images/reviews/packing-cubes/veken.jpg",
+    specifications: {
+      material: "Durable nylon and polyester",
+      sizes: ["Extra large", "Large", "Medium", "Small"],
+      features: ["Clear strip for content identification", "Shoe bag", "Laundry bag"],
+      waterResistant: true,
+      compression: false
+    }
   },
   {
     id: 2,
@@ -41,17 +48,24 @@ export const products: Product[] = [
       { feature: "Features", specification: "Laundry bag, snag-free zippers, \"X\" design to prevent bulging" }
     ],
     pros: [
-      "**Affordable**",
-      "**Durable construction**",
-      "**Various sizes for different needs**",
-      "**Includes a laundry bag**"
+      "Affordable",
+      "Durable construction",
+      "Various sizes for different needs",
+      "Includes a laundry bag"
     ],
     cons: [
-      "**Mesh tops are not waterproof or water-resistant**"
+      "Mesh tops are not waterproof or water-resistant"
     ],
     verdict: "The Shacke Pak 5 Set offers great value for budget-conscious travelers, providing essential features and durability at an affordable price point.",
-    link: addAffiliateCode("https://www.amazon.com/Shacke-Pak-Packing-Organizers-Laundry/dp/B0CHN6F342"),
-    image: "https://m.media-amazon.com/images/I/71nz382C3wL._AC_SL1500_.jpg"
+    link: addAffiliateCode("https://www.amazon.com/dp/B0CHN6F342"),
+    image: "/images/reviews/packing-cubes/shacke-pak.jpg",
+    specifications: {
+      material: "Durable water-resistant nylon",
+      sizes: ["Extra large", "Large", "Medium", "Small"],
+      features: ["Laundry bag", "Snag-free zippers", "\"X\" design to prevent bulging"],
+      waterResistant: true,
+      compression: false
+    }
   },
   {
     id: 3,
@@ -64,17 +78,24 @@ export const products: Product[] = [
       { feature: "Features", specification: "Expandable design, durable construction, dual compartments" }
     ],
     pros: [
-      "**Spacious and well-built**",
-      "**Made with 100% recycled materials**",
-      "**Water-resistant for added protection**",
-      "**Fair Trade Certified and carbon neutral**"
+      "Spacious and well-built",
+      "Made with 100% recycled materials",
+      "Water-resistant for added protection",
+      "Fair Trade Certified and carbon neutral"
     ],
     cons: [
-      "**Easy-access zippers can be finicky**"
+      "Easy-access zippers can be finicky"
     ],
     verdict: "Peak Design Packing Cubes excel in sustainability and durability, making them perfect for environmentally conscious travelers who don't want to compromise on quality.",
-    link: addAffiliateCode("https://www.amazon.com/Peak-Design-Packing-Small-Efficient/dp/B09RZR7T8K"),
-    image: "https://m.media-amazon.com/images/I/81-qSdJdTmL._AC_SL1500_.jpg"
+    link: addAffiliateCode("https://www.amazon.com/dp/B09RZR7T8K"),
+    image: "/images/reviews/packing-cubes/peak-design.jpg",
+    specifications: {
+      material: "100% recycled, water-resistant nylon",
+      sizes: ["Small", "Medium"],
+      features: ["Expandable design", "Durable construction", "Dual compartments"],
+      waterResistant: true,
+      compression: false
+    }
   },
   {
     id: 4,
@@ -87,16 +108,23 @@ export const products: Product[] = [
       { feature: "Features", specification: "4-sided cube design, monogramming option" }
     ],
     pros: [
-      "**Can be personalized with monogramming**",
-      "**Water-resistant for added protection**",
-      "**Durable and spacious**"
+      "Can be personalized with monogramming",
+      "Water-resistant for added protection",
+      "Durable and spacious"
     ],
     cons: [
-      "**Large cube takes up significant space in a carry-on**"
+      "Large cube takes up significant space in a carry-on"
     ],
     verdict: "The Paravel Packing Cube Quad is ideal for style-conscious travelers who want to add a personal touch to their travel organization.",
     link: addAffiliateCode("https://www.amazon.com/dp/B09MSP8HW8"),
-    image: "https://m.media-amazon.com/images/I/71C-I-hWgAL._AC_SL1500_.jpg"
+    image: "/images/reviews/packing-cubes/paravel.jpg",
+    specifications: {
+      material: "Water-resistant Negative Nylon®",
+      sizes: ["Large", "Medium", "Small"],
+      features: ["4-sided cube design", "Monogramming option"],
+      waterResistant: true,
+      compression: false
+    }
   },
   {
     id: 5,
@@ -106,18 +134,26 @@ export const products: Product[] = [
     specs: [
       { feature: "Material", specification: "Durable polyester" },
       { feature: "Sizes", specification: "Large, medium, and small" },
-      { feature: "Features", specification: "Removable identification tags, water-resistant envelope for cosmetics" }
+      { feature: "Features", specification: "Removable identification tags, mesh panels" }
     ],
     pros: [
-      "**Stylish and durable**",
-      "**Includes a variety of sizes and a water-resistant pouch**"
+      "Stylish designs and colors",
+      "Durable construction",
+      "Identification tags included"
     ],
     cons: [
-      "**Better suited for checked luggage due to the number of cubes**"
+      "Better suited for checked luggage due to the number of cubes"
     ],
     verdict: "Calpak Packing Cubes are perfect for fashion-conscious travelers who want their organization solutions to be as stylish as they are functional.",
-    link: addAffiliateCode("https://www.calpaktravel.com/collections/packing-cubes"),
-    image: "https://m.media-amazon.com/images/I/71C-I-hWgAL._AC_SL1500_.jpg"
+    link: addAffiliateCode("https://www.amazon.com/dp/B07N1BWQV8"),
+    image: "/images/reviews/packing-cubes/calpak.jpg",
+    specifications: {
+      material: "Durable polyester",
+      sizes: ["Large", "Medium", "Small"],
+      features: ["Removable identification tags", "Mesh panels"],
+      waterResistant: false,
+      compression: false
+    }
   },
   {
     id: 6,
@@ -130,17 +166,24 @@ export const products: Product[] = [
       { feature: "Features", specification: "Compression zippers, mesh panels for ventilation" }
     ],
     pros: [
-      "**Efficient compression**",
-      "**Durable construction**",
-      "**Keeps items organized**",
-      "**Ideal for beach vacations**"
+      "Efficient compression",
+      "Durable construction",
+      "Keeps items organized",
+      "Ideal for beach vacations"
     ],
     cons: [
-      "**Can be bulky when expanded**"
+      "Can be bulky when expanded"
     ],
     verdict: "Bagsmart Compression Packing Cubes are an excellent choice for travelers who need to maximize their luggage space without compromising on organization.",
-    link: addAffiliateCode("https://www.amazon.com/Compression-BAGSMART-Organizers-Essentials-Lightweight/dp/B0CLN6FVL8"),
-    image: "https://m.media-amazon.com/images/I/812eAHW9-XL._AC_SL1500_.jpg"
+    link: addAffiliateCode("https://www.amazon.com/dp/B0CLN6FVL8"),
+    image: "/images/reviews/packing-cubes/bagsmart.jpg",
+    specifications: {
+      material: "Durable, water-resistant polyester",
+      sizes: ["Large", "Medium", "Small"],
+      features: ["Compression zippers", "Mesh panels for ventilation"],
+      waterResistant: true,
+      compression: true
+    }
   },
   {
     id: 7,
@@ -153,17 +196,24 @@ export const products: Product[] = [
       { feature: "Features", specification: "Compression zipper, translucent fabric" }
     ],
     pros: [
-      "**Lightweight and durable**",
-      "**Compresses well**",
-      "**Water-resistant**",
-      "**Maximizes luggage space**"
+      "Lightweight and durable",
+      "Compresses well",
+      "Water-resistant",
+      "Maximizes luggage space"
     ],
     cons: [
-      "**Expensive**",
-      "**Zipper can snag on the internal lining**"
+      "Expensive",
+      "Zipper can snag on the internal lining"
     ],
     verdict: "The Eagle Creek Specter Compression Cube is perfect for travelers who prioritize lightweight packing without compromising on functionality. Its premium construction and effective compression system justify the higher price point.",
-    link: addAffiliateCode("https://www.amazon.com/Eagle-Creek-Specter-Compression-Strobe/dp/B00BYFC4Z4"),
-    image: "https://m.media-amazon.com/images/I/71oF-N-zMHL._AC_SL1500_.jpg"
+    link: addAffiliateCode("https://www.amazon.com/dp/B00BYFC4Z4"),
+    image: "/images/reviews/packing-cubes/eagle-creek.jpg",
+    specifications: {
+      material: "Durable, ultra-lightweight, water-resistant ripstop fabric",
+      sizes: ["Small", "Medium"],
+      features: ["Compression zipper", "Translucent fabric"],
+      waterResistant: true,
+      compression: true
+    }
   }
 ];
