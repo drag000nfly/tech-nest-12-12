@@ -28,7 +28,7 @@ export const products: Product[] = [
     ],
     verdict: "The Veken Packing Cubes With Laundry and Shoe Bag offer excellent organization capabilities with their comprehensive set of cubes and additional bags.",
     link: addAffiliateCode("https://www.amazon.com/dp/B0B7BFMHNF"),
-    image: "/images/reviews/packing-cubes/veken.jpg",
+    image: "/images/reviews/packing-cubes/products/veken.jpg",
     specifications: {
       material: "Durable nylon and polyester",
       sizes: ["Extra large", "Large", "Medium", "Small"],
@@ -58,7 +58,7 @@ export const products: Product[] = [
     ],
     verdict: "The Shacke Pak 5 Set offers great value for budget-conscious travelers, providing essential features and durability at an affordable price point.",
     link: addAffiliateCode("https://www.amazon.com/dp/B0CHN6F342"),
-    image: "/images/reviews/packing-cubes/shacke-pak.jpg",
+    image: "/images/reviews/packing-cubes/products/shacke-pak.jpg",
     specifications: {
       material: "Durable water-resistant nylon",
       sizes: ["Extra large", "Large", "Medium", "Small"],
@@ -88,7 +88,7 @@ export const products: Product[] = [
     ],
     verdict: "Peak Design Packing Cubes excel in sustainability and durability, making them perfect for environmentally conscious travelers who don't want to compromise on quality.",
     link: addAffiliateCode("https://www.amazon.com/dp/B09RZR7T8K"),
-    image: "/images/reviews/packing-cubes/peak-design.jpg",
+    image: "/images/reviews/packing-cubes/products/peak-design.jpg",
     specifications: {
       material: "100% recycled, water-resistant nylon",
       sizes: ["Small", "Medium"],
@@ -117,7 +117,7 @@ export const products: Product[] = [
     ],
     verdict: "The Paravel Packing Cube Quad is ideal for style-conscious travelers who want to add a personal touch to their travel organization.",
     link: addAffiliateCode("https://www.amazon.com/dp/B09MSP8HW8"),
-    image: "/images/reviews/packing-cubes/paravel.jpg",
+    image: "/images/reviews/packing-cubes/products/paravel.jpg",
     specifications: {
       material: "Water-resistant Negative Nylon®",
       sizes: ["Large", "Medium", "Small"],
@@ -146,7 +146,7 @@ export const products: Product[] = [
     ],
     verdict: "Calpak Packing Cubes are perfect for fashion-conscious travelers who want their organization solutions to be as stylish as they are functional.",
     link: addAffiliateCode("https://www.amazon.com/dp/B07N1BWQV8"),
-    image: "/images/reviews/packing-cubes/calpak.jpg",
+    image: "/images/reviews/packing-cubes/products/calpak.jpg",
     specifications: {
       material: "Durable polyester",
       sizes: ["Large", "Medium", "Small"],
@@ -176,7 +176,7 @@ export const products: Product[] = [
     ],
     verdict: "Bagsmart Compression Packing Cubes are an excellent choice for travelers who need to maximize their luggage space without compromising on organization.",
     link: addAffiliateCode("https://www.amazon.com/dp/B0CLN6FVL8"),
-    image: "/images/reviews/packing-cubes/bagsmart.jpg",
+    image: "/images/reviews/packing-cubes/products/bagsmart.jpg",
     specifications: {
       material: "Durable, water-resistant polyester",
       sizes: ["Large", "Medium", "Small"],

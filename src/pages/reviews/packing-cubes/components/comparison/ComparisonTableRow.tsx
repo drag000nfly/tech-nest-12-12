@@ -16,7 +16,7 @@ export function ComparisonTableRow({ product, priceRange }: ComparisonTableRowPr
       <td className="py-4 px-6 text-gray-300">{product.name}</td>
       <td className="py-4 px-6">
         <div className="w-24 h-24 relative">
-          <ProductImage src={product.image} alt={product.name} className="rounded-lg" />
+          <ProductImage src={product.image} alt={product.name} className="rounded-lg bg-white p-2" />
         </div>
       </td>
       <td className="py-4 px-6 text-gray-300">{materialSpec?.specification || "Not specified"}</td>
