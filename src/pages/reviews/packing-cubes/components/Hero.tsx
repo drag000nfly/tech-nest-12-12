@@ -33,6 +33,7 @@ export function Hero({ title, subtitle, image }: HeroProps) {
         onError={handleError}
         onLoad={handleLoad}
         crossOrigin="anonymous"
+        referrerPolicy="no-referrer"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent rounded-xl">
         <div className="container mx-auto px-4 h-full flex items-center justify-center">
