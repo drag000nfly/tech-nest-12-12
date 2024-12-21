@@ -3,7 +3,7 @@ import { products } from './products';
 
 export const articleData: ArticleData = {
   title: "Best Packing Cubes for Travel",
-  heroImage: "https://ideogram.ai/g/oCrrqx03QCKoowxPWhgrog/1",
+  heroImage: "/images/reviews/packing-cubes/hero.jpg",
   introduction: {
     paragraphs: [
       "Here at TechNest, we're passionate about making your travel experiences smoother and more enjoyable. To achieve this, we've spent months rigorously testing the top packing cubes available, evaluating their performance in real-world scenarios to help you find the perfect fit for your luggage. Our research involved diving deep into product reviews and comparisons across various sources, including Amazon, Reddit, YouTube, Wirecutter, and CNN Underscored, to provide you with the most comprehensive and reliable information. Packing cubes have evolved beyond simple organizers – they now boast compression technology, water-resistant materials, and innovative designs to maximize space and minimize wrinkles. So, whether you're a seasoned globetrotter or a weekend wanderer, say goodbye to chaotic suitcases and hello to organized bliss with our top picks for the best packing cubes for travel."
