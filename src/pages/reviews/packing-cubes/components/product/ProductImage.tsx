@@ -27,7 +27,7 @@ export function ProductImage({ src, alt, title, imageUrl, link, className = '' }
   };
 
   const image = (
-    <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
+    <div className="relative aspect-[4/3] overflow-hidden rounded-lg bg-white">
       {isLoading && (
         <div className="absolute inset-0 bg-gray-800 animate-pulse rounded-lg" />
       )}
