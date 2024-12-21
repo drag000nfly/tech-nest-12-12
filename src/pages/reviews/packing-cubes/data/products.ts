@@ -88,7 +88,7 @@ export const products: Product[] = [
     ],
     verdict: "Peak Design Packing Cubes excel in sustainability and durability, making them perfect for environmentally conscious travelers who don't want to compromise on quality.",
     link: addAffiliateCode("https://www.amazon.com/dp/B09RZR7T8K"),
-    image: "/images/reviews/packing-cubes/products/peak-design.jpg",
+    image: "/images/reviews/packing-cubes/products/peak-design-2.jpg",
     specifications: {
       material: "100% recycled, water-resistant nylon",
       sizes: ["Small", "Medium"],
@@ -207,7 +207,7 @@ export const products: Product[] = [
     ],
     verdict: "The Eagle Creek Specter Compression Cube is perfect for travelers who prioritize lightweight packing without compromising on functionality. Its premium construction and effective compression system justify the higher price point.",
     link: addAffiliateCode("https://www.amazon.com/dp/B00BYFC4Z4"),
-    image: "/images/reviews/packing-cubes/eagle-creek.jpg",
+    image: "/images/reviews/packing-cubes/products/eagle-creek-reveal.jpg",
     specifications: {
       material: "Durable, ultra-lightweight, water-resistant ripstop fabric",
       sizes: ["Small", "Medium"],
