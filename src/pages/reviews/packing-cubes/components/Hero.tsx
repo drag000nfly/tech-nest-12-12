@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 interface HeroProps {
   title: string;
@@ -10,11 +10,20 @@ interface HeroProps {
 export function Hero({ title, subtitle, image }: HeroProps) {
   const [hasError, setHasError] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
+  const [imageSrc, setImageSrc] = useState('/images/placeholder.jpg');
+
+  useEffect(() => {
+    // Reset states when image prop changes
+    setHasError(false);
+    setIsLoading(true);
+    setImageSrc(image);
+  }, [image]);
 
   const handleError = () => {
     console.error(`Failed to load hero image: ${image}`);
     setHasError(true);
     setIsLoading(false);
+    setImageSrc('/images/placeholder.jpg');
   };
 
   const handleLoad = () => {
@@ -27,13 +36,12 @@ export function Hero({ title, subtitle, image }: HeroProps) {
         <div className="absolute inset-0 bg-gray-800 animate-pulse rounded-xl" />
       )}
       <img
-        src={hasError ? '/images/placeholder.jpg' : image}
+        src={imageSrc}
         alt={title}
         className="absolute inset-0 w-full h-full object-cover rounded-xl"
         onError={handleError}
         onLoad={handleLoad}
-        crossOrigin="anonymous"
-        referrerPolicy="no-referrer"
+        loading="eager"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent rounded-xl">
         <div className="container mx-auto px-4 h-full flex items-center justify-center">
