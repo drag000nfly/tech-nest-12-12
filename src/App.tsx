@@ -1,30 +1,24 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Header } from './components/Header';
-import { HomePage } from './pages/HomePage';
-import { ReviewsPage } from './pages/reviews/index';
-import { Footer } from './components/Footer';
-import RobotsPage from './pages/reviews/robot-vacuums';
-import Article2 from './pages/reviews/robot-vacuums-and-mops';
-import Article3 from './pages/reviews/gemini-bolt-robot-vacuums';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Layout from './components/Layout'
+import Home from './pages/Home'
+import Reviews from './pages/Reviews'
+import Resources from './pages/Resources'
+import Guides from './pages/Guides'
+import './App.css'
 
-
-export default function App() {
+function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-gray-900">
-        <Header />
-        <main className="pt-16">
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/reviews" element={<ReviewsPage />} />
-            <Route path="/reviews/robot-vacuums" element={<RobotsPage />} />
-            <Route path="/reviews/robot-vacuums-and-mops" element={<Article2 />} />
-            <Route path="/reviews/gemini-bolt-robot-vacuums" element={<Article3 />} />
-          </Routes>
-        </main>
-        <Footer />
-      </div>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="/reviews" element={<Reviews />} />
+          <Route path="/resources" element={<Resources />} />
+          <Route path="/best" element={<Guides />} />
+        </Route>
+      </Routes>
     </Router>
-  );
+  )
 }
+
+export default App
